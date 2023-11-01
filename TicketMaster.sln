@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "user", "user", "{5DD12484-F7A3-453E-A13B-97223A7385DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActor.Interfaces", "user\UserActor.Interfaces\UserActor.Interfaces.csproj", "{56726A71-7B9E-43CD-9F5D-246165337754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserActorService", "user\UserActorService\UserActorService.csproj", "{7765CD40-F989-4A37-AFDF-8ED272B49003}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ticketmaster", "ticketmaster", "{1027069D-2AD9-4156-A2CA-2735E90C23A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "order", "order", "{6CDA852D-79BC-4662-9648-2FC660460D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderActor.Interfaces", "order\OrderActor.Interfaces\OrderActor.Interfaces.csproj", "{2589D169-8A59-4984-9D55-3DECAEA50B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderActorService", "order\OrderActorService\OrderActorService.csproj", "{9E0FCD8C-F108-421A-8230-177241755375}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "stock", "stock", "{B261CF99-1571-46E1-9A0C-94DE2D8C0AC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockActor.Interfaces", "stock\StockActor.Interfaces\StockActor.Interfaces.csproj", "{708AD200-AF59-49A1-87C0-D8D8597FD3E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockActorService", "stock\StockActorService\StockActorService.csproj", "{08E4BBFC-4396-455E-A47F-7BBE41D61893}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketMasterApi", "ticketmaster\TicketMasterApi\TicketMasterApi.csproj", "{A0D044BD-F595-48D6-818B-DFEB04D2BB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketCounter", "ticketmaster\TicketCounter\TicketCounter.csproj", "{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56726A71-7B9E-43CD-9F5D-246165337754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56726A71-7B9E-43CD-9F5D-246165337754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56726A71-7B9E-43CD-9F5D-246165337754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56726A71-7B9E-43CD-9F5D-246165337754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7765CD40-F989-4A37-AFDF-8ED272B49003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7765CD40-F989-4A37-AFDF-8ED272B49003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7765CD40-F989-4A37-AFDF-8ED272B49003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7765CD40-F989-4A37-AFDF-8ED272B49003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF959C0-C303-44A9-B1D7-8450C664B491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF959C0-C303-44A9-B1D7-8450C664B491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF959C0-C303-44A9-B1D7-8450C664B491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF959C0-C303-44A9-B1D7-8450C664B491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2589D169-8A59-4984-9D55-3DECAEA50B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2589D169-8A59-4984-9D55-3DECAEA50B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2589D169-8A59-4984-9D55-3DECAEA50B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2589D169-8A59-4984-9D55-3DECAEA50B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0FCD8C-F108-421A-8230-177241755375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0FCD8C-F108-421A-8230-177241755375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0FCD8C-F108-421A-8230-177241755375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0FCD8C-F108-421A-8230-177241755375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708AD200-AF59-49A1-87C0-D8D8597FD3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708AD200-AF59-49A1-87C0-D8D8597FD3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708AD200-AF59-49A1-87C0-D8D8597FD3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708AD200-AF59-49A1-87C0-D8D8597FD3E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E4BBFC-4396-455E-A47F-7BBE41D61893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E4BBFC-4396-455E-A47F-7BBE41D61893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E4BBFC-4396-455E-A47F-7BBE41D61893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E4BBFC-4396-455E-A47F-7BBE41D61893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0D044BD-F595-48D6-818B-DFEB04D2BB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D044BD-F595-48D6-818B-DFEB04D2BB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D044BD-F595-48D6-818B-DFEB04D2BB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D044BD-F595-48D6-818B-DFEB04D2BB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56726A71-7B9E-43CD-9F5D-246165337754} = {5DD12484-F7A3-453E-A13B-97223A7385DF}
+		{7765CD40-F989-4A37-AFDF-8ED272B49003} = {5DD12484-F7A3-453E-A13B-97223A7385DF}
+		{2589D169-8A59-4984-9D55-3DECAEA50B88} = {6CDA852D-79BC-4662-9648-2FC660460D56}
+		{9E0FCD8C-F108-421A-8230-177241755375} = {6CDA852D-79BC-4662-9648-2FC660460D56}
+		{708AD200-AF59-49A1-87C0-D8D8597FD3E6} = {B261CF99-1571-46E1-9A0C-94DE2D8C0AC3}
+		{08E4BBFC-4396-455E-A47F-7BBE41D61893} = {B261CF99-1571-46E1-9A0C-94DE2D8C0AC3}
+		{A0D044BD-F595-48D6-818B-DFEB04D2BB79} = {1027069D-2AD9-4156-A2CA-2735E90C23A2}
+		{CD93DB8C-7A41-4A44-AD3A-0B84EC2C0206} = {1027069D-2AD9-4156-A2CA-2735E90C23A2}
+	EndGlobalSection
+EndGlobal
